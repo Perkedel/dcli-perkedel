@@ -1,4 +1,4 @@
-# arch-config
+# dcli-perkedel
 
 Declarative package management configuration for Arch Linux.
 
