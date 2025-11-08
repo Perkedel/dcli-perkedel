@@ -1,0 +1,13 @@
+description: Niri desktop kit - Sets for Niri Desktop based on tony https://youtu.be/bjalAgAVIkc
+
+packages:
+  - niri
+  - noctalia-shell
+ 
+conflicts:
+  #- desktop_hyprland
+  #- desktop_i3wm
+  #- dekstop_wayfire
+  #- desktop_gnome
+  #- desktop_lxqt
+  #- desktop_moksha

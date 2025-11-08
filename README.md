@@ -43,3 +43,27 @@ git commit -m "Initial arch-config setup"
 ```
 
 The `state/installed.yaml` file is auto-generated and git-ignored.
+
+### Updating Git
+
+Update this arch-config repo with:
+
+#### Uploading from editing source
+
+```bash
+cd ~/.config/arch-config
+dcli repo push  # Type your commit message when prompted & enter
+```
+
+#### Download from Git repository
+
+```bash
+cd ~/.config/arch-config
+dcli repo pull
+dcli sync  # then review what will be installed, and confirm.
+```
+
+## More Resources
+
+- https://gitlab.com/theblackdon/dcli . Main resource of DCLI. DCLI is a Package Declarator system for Arch Linux and derivatives, inspired by Nix & NixOS.
+- https://gitlab.com/theblackdon/arch-config . Sample config of the DCLI. Black Don's personal config you can learn & reference from.

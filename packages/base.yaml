@@ -5,9 +5,17 @@ description: Base packages for all machines
 
 packages:
   - base
+  - base-devel
   - linux
   - linux-firmware
   - networkmanager
   - vim
   - git
-  - yq  # YAML processor for dcli
+  - go-yq  # YAML processor for dcli
+  - pipewire
+  - htop
+  - tmux
+  - man-db
+  - man-pages
+  - fastfetch
+  - alacritty
