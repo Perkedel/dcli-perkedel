@@ -1,11 +1,25 @@
 description: Niri desktop kit - Sets for Niri Desktop based on tony https://youtu.be/bjalAgAVIkc
 
+# also involved https://gitlab.com/theblackdon/arch-config/-/blob/main/packages/modules/hyprland.yaml
+
 packages:
   - niri
   - noctalia-shell
-  - rofi	# Start Spotlight menu
-  - pavucontrol		# volume pls
- 
+  - fuzzel # (DEPENDENCY) Start Spotlight menu default to niri
+  - rofi # Start Spotlight menu
+  - pavucontrol # volume pls
+  - qt5-wayland # Qt5 Wayland support
+  - qt6-wayland # Qt6 Wayland support
+  - grim # Screenshot tool
+  - slurp # Region selector
+  - swaybg # Background manager
+  - mako # Notification daemon
+  - dunst # Alternative notifications
+  - brightnessctl # Brightness control
+  - pavucontrol # Audio control
+  - network-manager-applet # Network manager GUI
+  - xwayland-satellite # X support for Wayland, Satellite edition
+
 conflicts:
   #- desktop_hyprland
   #- desktop_i3wm
@@ -13,3 +27,5 @@ conflicts:
   #- desktop_gnome
   #- desktop_lxqt
   #- desktop_moksha
+
+post_install_hook: ""

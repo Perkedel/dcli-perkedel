@@ -9,9 +9,11 @@ packages:
   - linux
   - linux-firmware
   - networkmanager
+  - neovim # Hyperextensible Vim-based text editor
+  - python-pynvim # Python support for Neovim
   - vim
   - git
-  - go-yq  # YAML processor for dcli
+  - go-yq # YAML processor for dcli
   - pipewire
   - htop
   - tmux
@@ -19,4 +21,5 @@ packages:
   - man-pages
   - fastfetch
   - alacritty
-  - timeshift  # disk snapshot
+  - timeshift # disk snapshot
+  - ttf-jetbrains-mono-nerd
