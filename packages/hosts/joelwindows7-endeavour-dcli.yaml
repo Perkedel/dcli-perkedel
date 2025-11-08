@@ -1,0 +1,9 @@
+# Host-specific packages for joelwindows7-endeavour-dcli
+# Add packages unique to this machine (drivers, hardware-specific tools, etc.)
+description: Packages specific to joelwindows7-endeavour-dcli
+
+# Packages to install on this host
+packages: []
+
+# Packages to exclude from base or modules on this host
+exclude: []
