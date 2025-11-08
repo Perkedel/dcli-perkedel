@@ -3,6 +3,8 @@ description: Niri desktop kit - Sets for Niri Desktop based on tony https://yout
 packages:
   - niri
   - noctalia-shell
+  - rofi	# Start Spotlight menu
+  - pavucontrol		# volume pls
  
 conflicts:
   #- desktop_hyprland

@@ -19,3 +19,4 @@ packages:
   - man-pages
   - fastfetch
   - alacritty
+  - timeshift  # disk snapshot

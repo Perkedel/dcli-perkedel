@@ -2,6 +2,8 @@
 
 Declarative package management configuration for Arch Linux.
 
+This dotfiles is used internally for Perkedel offices. You are free to also use this as well.
+
 ## Structure
 
 - `config.yaml` - Main configuration file
@@ -22,7 +24,7 @@ Edit `packages/hosts/joelwindows7-endeavour-dcli.json` to add packages specific 
 
 ### Create and enable modules
 1. Create a new JSON file in `packages/modules/`
-2. Enable it with: `dcli module enable <module-name>`
+2. Enable it with: `dcli module enable <module-name>` OR edit `config.yaml` and add `<module-name>` into section `enabled-modules` list.
 3. Sync packages: `dcli sync`
 
 ### Sync packages
@@ -36,7 +38,7 @@ dcli sync --prune   # Also remove packages not in configuration
 Initialize a git repository to track your configuration:
 
 ```bash
-cd /home/joelwindows7/.config/arch-config
+cd ~/.config/arch-config
 git init
 git add .
 git commit -m "Initial arch-config setup"

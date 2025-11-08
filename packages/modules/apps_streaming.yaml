@@ -1,0 +1,4 @@
+description: Streaming applications, includes Black Don's declarations
+
+packages:
+  - obs-studio                 # Streaming and recording

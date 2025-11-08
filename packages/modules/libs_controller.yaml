@@ -1,0 +1,20 @@
+# Controller Supports
+# Black Don 
+# https://gitlab.com/theblackdon/arch-config/-/blob/main/packages/modules/controller-support.yaml?ref_type=heads
+# sorry for kanging. idk how to cherry pick 676efe37d2a8d28240ad227ec2c4c022b5ddb1c8 this complex rn
+
+description: Game controller drivers and tools for various gaming controllers
+
+packages:
+  - game-devices-udev  # udev rules for game controllers
+  - sc-controller      # Steam Controller configuration
+  - xboxdrv            # Xbox controller driver
+  - antimicrox         # Map controller to keyboard/mouse
+  - piper              # Gaming mouse configuration
+  - joyutils           # Joystick utilities
+  - xpadneo-dkms       # Xbox One controller driver
+
+conflicts: []
+
+# Script to install custom udev rules
+post_install_hook: scripts/install-controller-udev-rules.sh

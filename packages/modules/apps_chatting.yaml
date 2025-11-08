@@ -1,0 +1,4 @@
+description: Chatting Applications, includes Black Don's declarations too
+
+packages:
+  - discord                    # Voice and chat
