@@ -20,6 +20,7 @@ packages:
   - man-db
   - man-pages
   - fastfetch
+  - neofetch
   - alacritty
   - timeshift # disk snapshot
   - ttf-jetbrains-mono-nerd
