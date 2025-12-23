@@ -11,7 +11,7 @@ packages:
   - networkmanager
   - neovim # Hyperextensible Vim-based text editor
   - python-pynvim # Python support for Neovim
-  - vim
+  - vim # to quit vim, pay attention to `:` colon also to enter Command mode. `:q` just quit, `:q!` force quit, `:wq` save and quit
   - git
   - go-yq # YAML processor for dcli
   - pipewire

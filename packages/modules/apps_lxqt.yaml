@@ -1,11 +1,11 @@
-# System76's COSMIC Desktop
-# Copy this to create new modules, or delete it
+# LXQT
+# Fork of LXDE now using Qt
 
-description: COSMIC Desktop - System76's Rust based Desktop Environment
+description: lxqt - Lightweight Desktop Environment
 
 # List of packages in this module
-packages: 
-  - cosmic
+packages:
+  - lxqt
   - xwayland-satellite # X support for Wayland, Satellite edition
   - qt5-wayland # Qt5 Wayland support
   - qt6-wayland # Qt6 Wayland support

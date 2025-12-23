@@ -1,0 +1,17 @@
+# LXQT
+# Lightweight Desktop Environment
+
+description: lxde - Lightweight Desktop Environment
+
+# List of packages in this module
+packages:
+  - lxde
+  #- xwayland-satellite # X support for Wayland, Satellite edition
+  #- qt5-wayland # Qt5 Wayland support
+  #- qt6-wayland # Qt6 Wayland support
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
