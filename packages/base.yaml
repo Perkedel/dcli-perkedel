@@ -16,10 +16,12 @@ packages:
   - go-yq # YAML processor for dcli
   - pipewire
   - htop
+  - btop
   - tmux
   - man-db
   - man-pages
   - fastfetch
+  - fet.sh
   - neofetch
   - alacritty
   #- timeshift # disk snapshot
