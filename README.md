@@ -64,6 +64,19 @@ cd ~/.config/arch-config
 dcli repo pull
 dcli sync  # then review what will be installed, and confirm.
 ```
+#### Download to another computer
+
+Setup DCLI over there, & then repo clone this using the DCLI interface
+
+```bash
+git clone https://gitlab.com/theblackdon/dcli
+cd dcli
+chmod +x ./install.sh # to make sure this file has execute permission
+./install.sh # yes yes yes to recommended configs
+
+# Prepare
+dcli repo clone https://github.com/Perkedel/dcli-perkedel
+```
 
 ## More Resources
 

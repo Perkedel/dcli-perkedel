@@ -22,5 +22,5 @@ packages:
   - fastfetch
   - neofetch
   - alacritty
-  - timeshift # disk snapshot
+  #- timeshift # disk snapshot
   - ttf-jetbrains-mono-nerd
