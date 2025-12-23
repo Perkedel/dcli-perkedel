@@ -5,7 +5,7 @@ description: Example module - customize or delete this
 
 # List of packages in this module
 packages: 
-	- mpv
+  - mpv
 
 # Modules that conflict with this one
 conflicts: []

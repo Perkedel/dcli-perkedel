@@ -1,0 +1,16 @@
+# Disk use Snapper as Snapshooter
+# Snapper disk snapshot
+
+description: Snapper - Disk snapshot use snapper
+
+# List of packages in this module
+packages:
+  - snapper
+  - snapper-gui
+
+# Modules that conflict with this one
+conflicts:
+  - disks_timeshift
+
+# Script to run after installing packages (optional)
+post_install_hook: ""

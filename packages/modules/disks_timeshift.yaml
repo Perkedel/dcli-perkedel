@@ -1,0 +1,16 @@
+# Disk use Timeshift as Snapshooter
+# Timeshift disk snapshot
+
+description: Timeshift - Disk snapshot use timeshift
+
+# List of packages in this module
+packages:
+  - timeshift
+  - snapmate
+
+# Modules that conflict with this one
+conflicts:
+  - disks_snapper
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
