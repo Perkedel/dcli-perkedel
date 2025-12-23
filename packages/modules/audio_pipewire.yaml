@@ -1,0 +1,20 @@
+# Pipewire
+# All-in-one Audio system
+
+description: pipewire - all-in-one audio system
+
+# List of packages in this module
+packages: 
+  - pipewire
+  - pavucontrol
+  - pavucontrol-qt
+  - pipewire-pulse
+  - pipewire-alsa
+  - pipewire-jack
+  - qjackctl
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
