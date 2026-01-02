@@ -1,7 +1,7 @@
 description: Development Apps Extras, includes Black Don's Recommendations
 
 packages:
-  - zed		# Fast GPU-powered text editor made with Rust
-  - neovim        # Hyperextensible Vim-based text editor
+  - zed # Fast GPU-powered text editor made with Rust
+  - neovim # Hyperextensible Vim-based text editor
   - python-pynvim # Python support for Neovim
   - lazygit
