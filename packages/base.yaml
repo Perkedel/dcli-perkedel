@@ -27,3 +27,4 @@ packages:
   - alacritty
   #- timeshift # disk snapshot
   - ttf-jetbrains-mono-nerd
+  - octopi # Synaptics but for Arch btw
