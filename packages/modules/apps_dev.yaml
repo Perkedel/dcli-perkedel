@@ -5,3 +5,6 @@ packages:
   - neovim # Hyperextensible Vim-based text editor
   - python-pynvim # Python support for Neovim
   - lazygit
+  - git-completion
+  - find-the-command
+  - git-status

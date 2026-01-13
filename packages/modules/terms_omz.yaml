@@ -1,0 +1,50 @@
+# Oh my ZSH!
+# Advanced shell. Used by many Arch rices.
+
+description: Oh my ZSH! - Advanced shell for many Arch rices
+
+# List of packages in this module
+packages:
+  - zsh-git
+  - zsh-autosuggestions-git
+  - zsh-autocomplete-git
+  - zsh-syntax-highlighting-git
+  - zsh-defer-git
+  - zsh-completions-git
+  - zsh-completion-generator-git
+  - zsh-manpage-completion-generator-bin
+  - zsh-theme-powerlevel10k-git
+  - zsh-hist-git
+  - zsh-timer-git
+  - zsh-you-should-use
+  - zsh-history-search-multiword-git
+  - zsh-background-notify-git
+  - zsh-command-not-found-git
+  - zsh-auto-dunstify
+  - zsh-extract-git
+  - zsh-fzf-plugin-git
+  - zsh-plugin-wd-git
+  - zsh-manydots-magic
+  - zsh-sudo
+  - zsh-antidote
+  - zsh-fast-syntax-highlighting-git
+  - zsh-lovers
+  - zgen-git
+  - zpy
+  - zimfw
+  - zinit
+  - zunit
+  - git-completion
+  - find-the-command
+  - git-status
+  - find-the-command
+  - powerline
+  - oh-my-zsh-git
+  - caniuse-plugin-zsh
+  - k
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
