@@ -5,7 +5,9 @@ description: Xlibre - New fork of X11
 
 # List of packages in this module
 packages:
-  - xlibre
+  - xlibre-xserver
+  - xlibre-xserver-common
+  - xlibre-xserver-bootstrap
   - xwayland-satellite # X support for Wayland, Satellite edition
   - qt5-wayland # Qt5 Wayland support
   - qt6-wayland # Qt6 Wayland support

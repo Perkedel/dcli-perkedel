@@ -1,0 +1,16 @@
+# SonicDe
+# KDE but with X11 retained. Upstream KDE removes it and now is Wayland only
+
+description: SonicDE - KDE with X11
+
+# List of packages in this module
+packages: 
+  - sonic-win-bin
+  - sonic-workspace
+  - sonic-x11-session
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
