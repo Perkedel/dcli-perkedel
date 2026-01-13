@@ -6,8 +6,8 @@ description: SonicDE - KDE with X11
 # List of packages in this module
 packages: 
   - sonic-win-bin
-  - sonic-workspace
-  - sonic-x11-session
+  - sonic-workspace-bin
+  - sonic-x11-session-bin
 
 # Modules that conflict with this one
 conflicts: []
