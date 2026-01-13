@@ -30,4 +30,3 @@ packages:
   - ttf-jetbrains-mono-nerd
   - octopi # Synaptics but for Arch btw
   - seatd # seat management daemon? used by wayland stuffs like wlroots
-  - hstr

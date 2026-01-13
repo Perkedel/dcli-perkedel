@@ -42,6 +42,7 @@ packages:
   - oh-my-zsh-git
   - caniuse-plugin-zsh
   - k
+  - hstr
 
 # Modules that conflict with this one
 conflicts: []

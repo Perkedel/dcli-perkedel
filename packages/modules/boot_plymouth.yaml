@@ -1,0 +1,16 @@
+# Plymouth
+# Boot screen graphics
+
+description: Example module - customize or delete this
+
+# List of packages in this module
+packages: 
+  - plymouth
+  - plymouth-kcm # idk how to have GUI theme manager without KDE
+  - plymouth-theme-bgrt-better-luks # make it use UEFI motherboard logo
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
