@@ -7,4 +7,4 @@ packages:
   - lazygit
   - git-completion
   - find-the-command
-  - git-status
+  - gitstatus
