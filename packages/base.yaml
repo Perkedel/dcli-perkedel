@@ -23,7 +23,7 @@ packages:
   - man-db
   - man-pages
   - fastfetch
-  - fet.sh
+  - fet.sh-git
   - neofetch
   - alacritty
   #- timeshift # disk snapshot
