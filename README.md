@@ -53,14 +53,14 @@ Update this arch-config repo with:
 #### Uploading from editing source
 
 ```bash
-cd ~/.config/arch-config
+cd ~/.config/arch-config # & do edit some stuffs there!
 dcli repo push  # Type your commit message when prompted & enter
 ```
 
 #### Download from Git repository
 
 ```bash
-cd ~/.config/arch-config
+cd ~/.config/arch-config # optional, just in case you wanna check first
 dcli repo pull
 dcli sync  # then review what will be installed, and confirm.
 ```
