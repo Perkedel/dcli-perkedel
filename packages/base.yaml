@@ -6,6 +6,7 @@ description: Base packages for all machines
 packages:
   - base
   - base-devel
+  - clang # why you not included?!?!?!??!?!?!??!?!??!?!?!??!
   - linux
   - linux-firmware
   - networkmanager

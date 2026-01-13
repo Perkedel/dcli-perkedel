@@ -4,7 +4,7 @@ description: Niri desktop kit - Sets for Niri Desktop based on tony https://yout
 
 packages:
   - niri
-  - noctalia-shell
+  - noctalia
   - fuzzel # (DEPENDENCY) Start Spotlight menu default to niri
   - rofi # Start Spotlight menu
   - pavucontrol # volume pls
