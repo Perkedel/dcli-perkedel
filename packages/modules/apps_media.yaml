@@ -4,3 +4,4 @@ description: Media apps
 
 packages: 
   - mpv
+  - vlc

@@ -1,5 +1,5 @@
 # Disk use Timeshift as Snapshooter
-# Timeshift disk snapshot
+# Timeshift disk snapshot. Used by most Arch distros, rices, & DCLI
 
 description: Timeshift - Disk snapshot use timeshift
 

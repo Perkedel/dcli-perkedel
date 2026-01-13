@@ -2,3 +2,4 @@ description: Streaming applications, includes Black Don's declarations
 
 packages:
   - obs-studio                 # Streaming and recording
+  - kdenlive                   # Video editing. Sorry, DaVinci Resolve is proprietary, of course won't be even in AUR somewhere that easy.

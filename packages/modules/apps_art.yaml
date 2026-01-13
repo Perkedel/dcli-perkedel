@@ -1,0 +1,16 @@
+# Arts applications!
+
+description: Arts - Apps to do some arts
+
+# List of packages in this module
+packages:
+  - krita
+  - blender
+  - inkscape
+  - gimp
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""

@@ -1,5 +1,5 @@
 # Disk use Snapper as Snapshooter
-# Snapper disk snapshot
+# Snapper disk snapshot. Used by CachyOS
 
 description: Snapper - Disk snapshot use snapper
 

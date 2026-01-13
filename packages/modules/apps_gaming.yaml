@@ -4,18 +4,21 @@
 # https://gitlab.com/theblackdon/arch-config/-/blob/main/packages/modules/gaming.yaml?ref_type=heads
 # sorry man, the commit 676efe37d2a8d28240ad227ec2c4c022b5ddb1c8 is way to complicated to cherry pick atm. forgive my kang!
 
+# Cachy user!:
+# On Welcome app, install extra packages, Gaming packages first. Just in case.
+
 description: Gaming packages and tools for Linux gaming
 
 packages:
-  - steam                      # Steam gaming platform
-  - lutris                     # Open gaming platform
-  - proton-ge-custom           # Proton GE for better game compatibility
-  - gamescope                  # Gaming compositor
-  - mangohud                   # Performance overlay
-  - gamemode                   # Optimize system for gaming
-  - piper                      # Gaming mouse configuration
-  - heroic-games-launcher-bin  # Epic Games and GOG launcher
-  - protonup-qt                # Proton version manager
+  - steam # Steam gaming platform
+  - lutris # Open gaming platform
+  - proton-ge-custom # Proton GE for better game compatibility
+  - gamescope # Gaming compositor
+  - mangohud # Performance overlay
+  - gamemode # Optimize system for gaming
+  - piper # Gaming mouse configuration
+  - heroic-games-launcher-bin # Epic Games and GOG launcher
+  - protonup-qt # Proton version manager
 
 conflicts: []
 post_install_hook: ""
