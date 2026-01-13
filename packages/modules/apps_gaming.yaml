@@ -19,6 +19,8 @@ packages:
   - piper # Gaming mouse configuration
   - heroic-games-launcher-bin # Epic Games and GOG launcher
   - protonup-qt # Proton version manager
+  - supertux # mario
+  - supertuxkart # mario kart
 
 conflicts: []
 post_install_hook: ""

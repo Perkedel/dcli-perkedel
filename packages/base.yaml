@@ -30,3 +30,7 @@ packages:
   - ttf-jetbrains-mono-nerd
   - octopi # Synaptics but for Arch btw
   - seatd # seat management daemon? used by wayland stuffs like wlroots
+
+
+# Extras
+# https://forum.endeavouros.com/t/tip-enable-magic-sysrq-key-reisub/7576
