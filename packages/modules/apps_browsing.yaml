@@ -2,7 +2,7 @@ description: Web Browser applications
 
 packages:
   - zen-browser-bin # use binary instead of having to compile just to get it fucking work bla bla blabdkjfhaks
-  - zen-browser-ublock-origin # fucking block ads. Or if you want greget, use Ad Nauseam to make it click it in background & risk ruin privacy?
-  - zen-browser-single-file
-  - zen-browser-sponsorblock
-  - zen-browser-bitwarded # password manager. Also pls install Proton Pass just in case. Both are feature paywalled btw
+  - #zen-browser-ublock-origin # fucking block ads. Or if you want greget, use Ad Nauseam to make it click it in background & risk ruin privacy?
+  - #zen-browser-single-file
+  - #zen-browser-sponsorblock
+  - #zen-browser-bitwarden # password manager. Also pls install Proton Pass just in case. Both are feature paywalled btw
