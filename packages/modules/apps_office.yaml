@@ -1,0 +1,15 @@
+# Office Apps
+# Who tf still uses Microsoft Office in these day and age? We Office with Markdown (plain text + lazy autoformat) you boomer!
+# Except spreadsheet. We use whatever FOSS there is, such as LibreOffice Calc.
+
+description: Office - Apps for office. Just in case you asked.
+
+# List of packages in this module
+packages:
+  - libreoffice-fresh
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
