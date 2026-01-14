@@ -75,7 +75,7 @@ chmod +x ./install.sh # to make sure this file has execute permission
 ./install.sh # yes yes yes to recommended configs
 
 # Prepare
-dcli repo clone https://github.com/Perkedel/dcli-perkedel
+dcli repo clone # & follow interactive prompt: URL of Git source, etc.
 ```
 
 ## More Resources
