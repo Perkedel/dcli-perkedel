@@ -1,0 +1,19 @@
+# Copyparty
+# Makeshift NAS Python server daemon
+
+description: Example module - customize or delete this
+
+# List of packages in this module
+packages: 
+  - copyparty
+  - cfssl
+  - argon2
+  - libvips
+  - python-pyzmq
+  - python-pyvips
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""

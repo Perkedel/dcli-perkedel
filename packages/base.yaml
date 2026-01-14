@@ -11,7 +11,7 @@ packages:
   - linux-firmware
   - networkmanager
   - neovim # Hyperextensible Vim-based text editor
-  - fresh-editor-bin # TUI Code Editor
+  - fresh-editor-bin # TUI Code Editor. In case you ultimately lost all your X & Waylands.
   - python-pynvim # Python support for Neovim
   - vim # to quit vim, pay attention to `:` colon also to enter Command mode. `:q` just quit, `:q!` force quit, `:wq` save and quit
   - git
