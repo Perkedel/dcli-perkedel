@@ -1,0 +1,63 @@
+# Doom Stuffs
+# All Dooming
+
+description: Example module - customize or delete this
+
+# List of packages in this module
+packages:
+  - doomretro # DOOM retro
+  - uzdoom-bin # GZDoom new fork
+  - wadcli
+  - slade # PK3 Resource editor
+  - doomrunner-bin # Doom launcher
+  - freedoom
+  - freedm
+  - doom3 # Doom 3
+  - doom3-data-steam # fetch Doom 3 you bought on Steam
+  - dhewm # newer Doom 3
+  - doomsday
+  - odamex # Ancient Zdoom Multiplayer
+  - zandronum # Multiplayer GZDoom old
+  - dsda-doom # speedrunner PrBoom+ Demo compatible. Best Vanilla Modern graphics
+  - doomseeker # find DOOM servers
+  - chocolate-doom # classic DOOM vanilla for modern PC
+  - crispy-doom # chocolate with a bit of upgrade
+  - zdoom # in case your mod is so old
+  - GZDoom # also in case
+  - lzdoom # GZDoom with UZDoom patches for older PC with OpenGLES
+  - qzdoom # Multiplayer doom another 
+  - nugget-doom # just little bit modded Woof
+  - helion-bin # .NET C# DOOM engine from scratch
+  - gzmodels
+  - raze-bin
+  - eternity-engine
+  - woof-doom
+  - inter-doom # International DOOM
+  - nyan-doom # DSDA with extras
+  - ultimate-doom-builder-bin # DOOM Map editor best
+  - acc # compile ACS
+  - zdbsp # standalone node builder
+  - doom1-wad # shareware data. bruh, can't you just sparsdat that?
+  - brutal-doom # Sgt. Mk. IV's Crazy DOOM TC
+  - twad-git
+  - ashes-2063
+  - doomtools-bin
+  - k8vavoom-git
+  - project-brutality-git # another crazy doom from p4ink1ller
+  - zander-bin # DOOM server
+  - doom_ascii # Terminal runs DOOM
+  - doomcube
+  - diamond-dragon
+  - doom+doom-ii-data-steam # fetch those classic DOOM + DOOM II collections from Steam
+  - cherry-doom
+  - cube2-bin # Not DOOM at all. Sauerbraten Multiplayer FPS Quake-like
+  - touhoudoom
+  - srb2-bin # Sonic Robo Blast. a Doom Legacy IWAD
+  - sigil-wad # new John Romero's PWAD for DOOM I
+  - sigil2-wad # also
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""

@@ -1,0 +1,18 @@
+# Cachy Post Install
+# Recommended CachyOS Post Installs
+
+description: Cachy Post Installs - Extra Cachy recommended packages
+
+# List of packages in this module
+packages:
+  - appmenu-gtk-module
+  - libdbusmenu-glib
+  - apparmor
+  - apparmor.d
+  - appimagelauncher
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""

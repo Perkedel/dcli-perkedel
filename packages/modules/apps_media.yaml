@@ -2,6 +2,7 @@
 
 description: Media apps
 
-packages: 
+packages:
   - mpv
   - vlc
+  - yt-dlp
