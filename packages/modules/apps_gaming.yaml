@@ -19,6 +19,7 @@ packages:
   - piper # Gaming mouse configuration
   - heroic-games-launcher-bin # Epic Games and GOG launcher
   - protonup-qt # Proton version manager
+  - winboat # Container for Windows EXE installations
   - supertux # mario
   - supertuxkart # mario kart
   - gcompris # Educational games

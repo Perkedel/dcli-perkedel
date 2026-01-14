@@ -13,6 +13,7 @@ packages:
   - piper              # Gaming mouse configuration
   - joyutils           # Joystick utilities
   - xpadneo-dkms       # Xbox One controller driver
+  - openrgb            # RGB Driver for almost RGB enabled peripherals.
 
 conflicts: []
 
