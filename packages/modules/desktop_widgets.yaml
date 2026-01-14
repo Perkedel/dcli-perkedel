@@ -1,0 +1,17 @@
+# Desktop Widgets
+
+description: Desktop Widgets - Make your desktop messy with Widgets
+
+# List of packages in this module
+packages:
+  - cavalier
+  #- qtile
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
+
+# Info
+# https://github.com/NickvisionApps/Cavalier

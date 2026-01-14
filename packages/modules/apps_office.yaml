@@ -7,6 +7,7 @@ description: Office - Apps for office. Just in case you asked.
 # List of packages in this module
 packages:
   - libreoffice-fresh
+  - freecad
 
 # Modules that conflict with this one
 conflicts: []

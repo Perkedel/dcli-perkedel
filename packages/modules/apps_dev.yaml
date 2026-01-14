@@ -8,3 +8,4 @@ packages:
   - git-completion
   - find-the-command
   - gitstatus
+  - vscodium # in case you require Microsoft's ecosystem of extensions. ngl, Zed's ecosystem is still baby & inferiorized by AI bubbles too!

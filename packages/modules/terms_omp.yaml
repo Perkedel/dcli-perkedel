@@ -1,0 +1,14 @@
+# Oh my Posh
+# wtf happened with Oh my ZSH??????
+
+description: Oh My Posh - Posh
+
+# List of packages in this module
+packages:
+  - ohmyposh
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""

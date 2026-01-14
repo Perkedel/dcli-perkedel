@@ -21,6 +21,7 @@ packages:
   - protonup-qt # Proton version manager
   - supertux # mario
   - supertuxkart # mario kart
+  - gcompris # Educational games
 
 conflicts: []
 post_install_hook: ""
