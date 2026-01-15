@@ -32,7 +32,6 @@ packages:
   - duckstation # just in case. Duckstation is traitor btw. This should choose you the -gpl hopefully
   - snes9x
   - pcsx2
-  - 
 
 # Modules that conflict with this one
 conflicts: []
