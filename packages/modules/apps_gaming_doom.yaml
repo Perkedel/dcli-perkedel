@@ -6,15 +6,15 @@ description: Example module - customize or delete this
 # List of packages in this module
 packages:
   - doomretro # DOOM retro
-  - uzdoom-bin # GZDoom new fork
+  - uzdoom # GZDoom new fork
   - wadcli
   - slade # PK3 Resource editor
-  - doomrunner-bin # Doom launcher
+  - doomrunner # Doom launcher
   - freedoom
   - freedm
   - doom3 # Doom 3
   - doom3-data-steam # fetch Doom 3 you bought on Steam
-  - dhewm # newer Doom 3
+  - dhewm3 # newer Doom 3
   - doomsday
   - odamex # Ancient Zdoom Multiplayer
   - zandronum # Multiplayer GZDoom old
@@ -23,18 +23,18 @@ packages:
   - chocolate-doom # classic DOOM vanilla for modern PC
   - crispy-doom # chocolate with a bit of upgrade
   - zdoom # in case your mod is so old
-  - GZDoom # also in case
+  - gzdoom # also in case
   - lzdoom # GZDoom with UZDoom patches for older PC with OpenGLES
-  - qzdoom # Multiplayer doom another 
+  - qzdoom # Multiplayer doom another
   - nugget-doom # just little bit modded Woof
-  - helion-bin # .NET C# DOOM engine from scratch
-  - gzmodels
-  - raze-bin
+  - helion # .NET C# DOOM engine from scratch
+  - gz-models
+  - raze
   - eternity-engine
   - woof-doom
   - inter-doom # International DOOM
   - nyan-doom # DSDA with extras
-  - ultimate-doom-builder-bin # DOOM Map editor best
+  - ultimate-doom-builder # DOOM Map editor best
   - acc # compile ACS
   - zdbsp # standalone node builder
   - doom1-wad # shareware data. bruh, can't you just sparsdat that?
@@ -44,17 +44,20 @@ packages:
   - doomtools-bin
   - k8vavoom-git
   - project-brutality-git # another crazy doom from p4ink1ller
-  - zander-bin # DOOM server
+  - zander # DOOM server
   - doom_ascii # Terminal runs DOOM
   - doomcube
   - diamond-dragon
   - doom+doom-ii-data-steam # fetch those classic DOOM + DOOM II collections from Steam
   - cherry-doom
-  - cube2-bin # Not DOOM at all. Sauerbraten Multiplayer FPS Quake-like
+  #- cube2-bin # Not DOOM at all. Sauerbraten Multiplayer FPS Quake-like
+  - sauerbraten
   - touhoudoom
-  - srb2-bin # Sonic Robo Blast. a Doom Legacy IWAD
+  - srb2 # Sonic Robo Blast. a Doom Legacy IWAD
   - sigil-wad # new John Romero's PWAD for DOOM I
   - sigil2-wad # also
+  #- oblige # be cringe and generate DOOM Level randomly
+  #- oblige-obsidian-stable-git # and the newest one, Obsidian level generator
 
 # Modules that conflict with this one
 conflicts: []

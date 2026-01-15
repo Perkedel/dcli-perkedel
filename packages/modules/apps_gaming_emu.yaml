@@ -1,0 +1,41 @@
+# Emulations
+# Emulate various consoles
+
+description: Emulations - Emulate Consoles
+
+# List of packages in this module
+packages:
+  - retroarch
+  - emulationstation
+  - emulationstation-themes
+  - emulationstation-autoscrapper
+  - vice
+  - opencbm
+  - v1541commander
+  - yape
+  - ttf-c64-fonts
+  - tapclean
+  - sid
+  - sam
+  - adflib
+  - tic80-pro-git # traitor!! you were the chosen one!!!
+  - picotron
+  - pico-8
+  - desmume
+  - citron
+  - citra
+  - melonds
+  - eden
+  - torzu-git
+  - totk-mod-manager
+  - nes-emu
+  - duckstation # just in case. Duckstation is traitor btw. This should choose you the -gpl hopefully
+  - snes9x
+  - pcsx2
+  - 
+
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""

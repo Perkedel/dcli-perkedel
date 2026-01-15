@@ -22,9 +22,10 @@ packages:
   - winboat # Container for Windows EXE installations
   - supertux # mario
   - supertuxkart # mario kart
-  - gcompris # Educational games
+  - gcompris-qt # Educational games
   - doomretro # DOOM retro
   - uzdoom-bin # GZDoom new fork
+  - portproton
 
 conflicts: []
 post_install_hook: ""

@@ -12,3 +12,4 @@ packages:
   - github-cli # command line for GitHub.com. Use to login there!
   - appmenu-gtk-module
   - libdbusmenu-glib
+  - godot

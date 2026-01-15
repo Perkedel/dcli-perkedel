@@ -8,6 +8,8 @@ packages:
   - blender
   - inkscape
   - gimp
+  - pixelorama # pixel art open source. aseprite is traitor
+  - sidfactory2
 
 # Modules that conflict with this one
 conflicts: []
