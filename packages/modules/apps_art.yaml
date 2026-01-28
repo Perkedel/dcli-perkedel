@@ -10,7 +10,7 @@ packages:
   - gimp
   - pixelorama # pixel art open source. aseprite is traitor
   - sidfactory2
-  - darkroom # lighroom but FOSS. Photograpphy correction
+  - darktable # lighroom but FOSS. Photograpphy correction
   - audacity
   - musescore
   - kdenlive
